@@ -143,7 +143,7 @@ module EmberCLI
       unless match_version?(version, EMBER_CLI_VERSION)
         fail <<-MSG.strip_heredoc
           EmberCLI Rails require ember-cli NPM package version to be
-          #{EMBER_CLI_VERSION} to work properly. From within your EmberCLI directory
+          #{EMBER_CLI_VERSION} to work at all. From within your EmberCLI directory
           please update your package.json accordingly and run:
 
             $ npm install
